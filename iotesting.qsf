@@ -1,0 +1,115 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 19:52:24  October 06, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		iotesting_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX 10"
+set_global_assignment -name DEVICE 10M04DAF256C8G
+set_global_assignment -name TOP_LEVEL_ENTITY iotesting
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "19:52:24  OCTOBER 06, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name VERILOG_FILE iotesting.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_L3 -to clk
+set_location_assignment PIN_L8 -to D8
+set_location_assignment PIN_M6 -to D9
+set_location_assignment PIN_M7 -to D10
+set_location_assignment PIN_M8 -to D11
+set_location_assignment PIN_T14 -to LS_GPIOA
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOA
+set_location_assignment PIN_B16 -to LS_U1_TX
+set_location_assignment PIN_F14 -to LS_U1_RX
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_U1_RX
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_U1_TX
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOB -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOC -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOD -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOE -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOG -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOF -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOH -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOI -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOJ -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOK -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOL -section_id LS_GPIO
+set_global_assignment -name ASSIGNMENT_GROUP_MEMBER LS_GPIOA -section_id LS_GPIO
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOB
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOC
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOD
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOE
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOF
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOG
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOH
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOI
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOJ
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOK
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_GPIOL
+set_location_assignment PIN_T15 -to LS_GPIOB
+set_location_assignment PIN_L11 -to LS_GPIOC
+set_location_assignment PIN_L12 -to LS_GPIOD
+set_location_assignment PIN_N14 -to LS_GPIOE
+set_location_assignment PIN_M15 -to LS_GPIOF
+set_location_assignment PIN_P15 -to LS_GPIOG
+set_location_assignment PIN_M14 -to LS_GPIOH
+set_location_assignment PIN_N16 -to LS_GPIOI
+set_location_assignment PIN_R15 -to LS_GPIOJ
+set_location_assignment PIN_K12 -to LS_GPIOK
+set_location_assignment PIN_K11 -to LS_GPIOL
+set_location_assignment PIN_C6 -to RESULT_RX
+set_location_assignment PIN_A6 -to RESULT_TX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to RESULT_RX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to RESULT_TX
+set_global_assignment -name VERILOG_FILE uart_tx.v
+set_location_assignment PIN_G15 -to LS_U0_RX
+set_location_assignment PIN_G16 -to LS_U0_TX
+set_location_assignment PIN_P11 -to ARDUINO_TX
+set_location_assignment PIN_P12 -to ARDUINO_RX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ARDUINO_RX
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to ARDUINO_TX
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_U0_RX
+set_instance_assignment -name IO_STANDARD "1.8 V" -to LS_U0_TX
+set_global_assignment -name VERILOG_FILE uart_rx.v
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

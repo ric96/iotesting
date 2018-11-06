@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -4.836
+TNS   : -220.632
+
+Type  : Slow 1200mV 85C Model Setup 'uart_tx:result_transmit|r_Tx_Active'
+Slack : -3.421
+TNS   : -44.997
+
+Type  : Slow 1200mV 85C Model Setup 'LS_GPIOA'
+Slack : -0.196
+TNS   : -0.196
+
+Type  : Slow 1200mV 85C Model Setup 'slow_clk[24]'
+Slack : 0.261
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.360
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'LS_GPIOA'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'slow_clk[24]'
+Slack : 0.412
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'uart_tx:result_transmit|r_Tx_Active'
+Slack : 0.719
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -151.700
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'LS_GPIOA'
+Slack : -3.000
+TNS   : -7.461
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'uart_tx:result_transmit|r_Tx_Active'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'slow_clk[24]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.532
+TNS   : -199.869
+
+Type  : Slow 1200mV 0C Model Setup 'uart_tx:result_transmit|r_Tx_Active'
+Slack : -3.208
+TNS   : -41.903
+
+Type  : Slow 1200mV 0C Model Setup 'LS_GPIOA'
+Slack : -0.095
+TNS   : -0.095
+
+Type  : Slow 1200mV 0C Model Setup 'slow_clk[24]'
+Slack : 0.334
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.322
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'LS_GPIOA'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'slow_clk[24]'
+Slack : 0.368
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'uart_tx:result_transmit|r_Tx_Active'
+Slack : 0.676
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -151.700
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'LS_GPIOA'
+Slack : -3.000
+TNS   : -7.779
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'uart_tx:result_transmit|r_Tx_Active'
+Slack : -1.487
+TNS   : -29.740
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'slow_clk[24]'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.243
+TNS   : -39.611
+
+Type  : Fast 1200mV 0C Model Setup 'uart_tx:result_transmit|r_Tx_Active'
+Slack : -0.701
+TNS   : -6.289
+
+Type  : Fast 1200mV 0C Model Setup 'LS_GPIOA'
+Slack : 0.542
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'slow_clk[24]'
+Slack : 0.694
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'LS_GPIOA'
+Slack : 0.166
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'slow_clk[24]'
+Slack : 0.170
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'uart_tx:result_transmit|r_Tx_Active'
+Slack : 0.245
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -106.486
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'LS_GPIOA'
+Slack : -3.000
+TNS   : -6.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'uart_tx:result_transmit|r_Tx_Active'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'slow_clk[24]'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

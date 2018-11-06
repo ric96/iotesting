@@ -1,0 +1,101 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "D8",
+					"strict" : false
+				},
+				{
+					"name" : "D9",
+					"strict" : false
+				},
+				{
+					"name" : "D10",
+					"strict" : false
+				},
+				{
+					"name" : "D11",
+					"strict" : false
+				},
+				{
+					"name" : "LS_U1_RX",
+					"strict" : false
+				},
+				{
+					"name" : "LS_U0_RX",
+					"strict" : false
+				},
+				{
+					"name" : "ARDUINO_TX",
+					"strict" : false
+				},
+				{
+					"name" : "RESULT_TX",
+					"strict" : false
+				},
+				{
+					"name" : "ARDUINO_RX",
+					"strict" : false
+				},
+				{
+					"name" : "LS_U1_TX",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOA",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOE",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOD",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOF",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOG",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOJ",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOH",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOK",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOI",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOB",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOC",
+					"strict" : false
+				},
+				{
+					"name" : "LS_GPIOL",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

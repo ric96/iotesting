@@ -1,0 +1,24 @@
+
+State Machine - |iotesting|uart_rx:uart_test_rx|r_SM_Main
+Name r_SM_Main.s_RX_STOP_BIT r_SM_Main.s_RX_DATA_BITS r_SM_Main.s_RX_START_BIT r_SM_Main.000 r_SM_Main.s_CLEANUP 
+r_SM_Main.000 0 0 0 0 0 
+r_SM_Main.s_RX_START_BIT 0 0 1 1 0 
+r_SM_Main.s_RX_DATA_BITS 0 1 0 1 0 
+r_SM_Main.s_RX_STOP_BIT 1 0 0 1 0 
+r_SM_Main.s_CLEANUP 0 0 0 1 1 
+
+State Machine - |iotesting|uart_tx:uart_test_tx|r_SM_Main
+Name r_SM_Main.s_TX_STOP_BIT r_SM_Main.s_TX_DATA_BITS r_SM_Main.s_TX_START_BIT r_SM_Main.000 r_SM_Main.s_CLEANUP 
+r_SM_Main.000 0 0 0 0 0 
+r_SM_Main.s_TX_START_BIT 0 0 1 1 0 
+r_SM_Main.s_TX_DATA_BITS 0 1 0 1 0 
+r_SM_Main.s_TX_STOP_BIT 1 0 0 1 0 
+r_SM_Main.s_CLEANUP 0 0 0 1 1 
+
+State Machine - |iotesting|uart_tx:result_transmit|r_SM_Main
+Name r_SM_Main.s_TX_STOP_BIT r_SM_Main.s_TX_DATA_BITS r_SM_Main.s_TX_START_BIT r_SM_Main.000 r_SM_Main.s_CLEANUP 
+r_SM_Main.000 0 0 0 0 0 
+r_SM_Main.s_TX_START_BIT 0 0 1 1 0 
+r_SM_Main.s_TX_DATA_BITS 0 1 0 1 0 
+r_SM_Main.s_TX_STOP_BIT 1 0 0 1 0 
+r_SM_Main.s_CLEANUP 0 0 0 1 1 

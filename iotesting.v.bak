@@ -1,0 +1,12 @@
+module iotesting (
+	input clk,
+	output LED
+);
+
+reg [21:0] slow_clk;
+
+always @(posedge clk) slow_clk <= slow_clk + 1;
+
+always @(posedge slow_clk[21:21]) LED <= ~LED;
+
+endmodule
